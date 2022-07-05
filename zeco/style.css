@@ -1,0 +1,112 @@
+*{
+    font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Splash', cursive;
+}
+body{
+    background-color: #ffffff;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+nav ul li a {
+    color: inherit;
+    text-decoration: none;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 25px;
+    font-weight: 500;
+}
+.nav-start {
+    font-size: 20px;
+    color: #1A9371;
+}
+.nav-start h1 span {
+    color: #FB9433;
+}
+.nav-center{
+    color:#6E6F76;
+    font-size: 20px;
+    margin-top: 14px;
+}
+.nav-center ul li a:hover{
+    color:#131321;
+}
+.nav-end {
+    margin-top: 34px;
+}
+.nav-end button{
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    border: 1px solid transparent;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#btn1{
+    background-color: transparent;
+}
+#btn2{
+    background-color:#FB9433;
+    color: white;
+}
+.pnl {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 0 50px;
+}
+.ademo h1 {
+    font-size: 50px;
+    text-transform: capitalize;
+    color: #0C1C35;
+}
+.ademo p {
+    color: #E3E2E5;
+}
+.ademo button{
+    margin-right: 10px;
+    width: 150px;
+    height: 29px;
+    background-color: #09A87A;
+    color:#ffffff;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.ademo .fa-circle-play {
+    color: #AEB0B2;
+}
+.nos img {
+    height: 500px;
+    width: 700px;
+}
+.lacrim{
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+}
+.card1 , .card2 {
+    display: inline-block;
+}
+.card3 , .card4 {
+    display: inline-block;
+}
+.card2 , .card4 {
+    margin-left: 50px;
+}
+.card1 p, .card2 p, .card3 p , .card4 p {
+    color: #6E6F76;
+}
+.gustavo-gaviria h1 {
+    font-size: 50px;
+}
+.gustavo-gaviria p {
+    color: #6E6F76;
+}
